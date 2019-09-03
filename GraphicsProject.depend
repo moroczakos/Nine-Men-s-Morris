@@ -1,0 +1,1409 @@
+# depslib dependency file v1.0
+1553519737 source:c:\users\morak\downloads\graphicskit másolata\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"examplecheckbox.hpp"
+	<vector>
+	"staticText.hpp"
+	"dinamicText.hpp"
+
+1488256928 c:\users\morak\downloads\graphicskit másolata\include\graphics.hpp
+	<string>
+
+1521394435 c:\users\morak\downloads\graphicskit másolata\widgets.hpp
+	"graphics.hpp"
+
+1521393516 c:\users\morak\downloads\graphicskit másolata\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1521393920 source:c:\users\morak\downloads\graphicskit másolata\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1521393268 source:c:\users\morak\downloads\graphicskit másolata\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1553518277 c:\users\morak\downloads\graphicskit másolata\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1553518277 source:c:\users\morak\downloads\graphicskit másolata\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1553514803 c:\users\morak\downloads\graphicskit másolata\include\statictext.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1553521085 source:c:\users\morak\downloads\graphicskit másolata\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1553518793 c:\users\morak\downloads\graphicskit másolata\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554126690 source:c:\users\morak\downloads\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1554126707 c:\users\morak\downloads\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1488260528 c:\users\morak\downloads\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1554126473 c:\users\morak\downloads\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1554126720 source:c:\users\morak\downloads\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1554126728 c:\users\morak\downloads\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554126690 source:c:\users\morak\downloads\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"examplecheckbox.hpp"
+	<vector>
+	"staticText.hpp"
+	"dinamicText.hpp"
+	"opefileText.hpp"
+	"application.hpp"
+	<iostream>
+	<fstream>
+
+1554126775 c:\users\morak\downloads\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554126762 source:c:\users\morak\downloads\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1521396868 source:c:\users\morak\downloads\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1554126822 c:\users\morak\downloads\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554126095 c:\users\morak\downloads\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+
+1554125852 source:c:\users\morak\downloads\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554126791 source:c:\users\morak\downloads\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1554672856 source:d:\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554672856 d:\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+
+1554669451 d:\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1554668051 d:\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1554669844 source:d:\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1554668050 d:\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554668050 source:d:\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1554668050 d:\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554722971 source:d:\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"examplecheckbox.hpp"
+	<vector>
+	"staticText.hpp"
+	"dinamicText.hpp"
+	"opefileText.hpp"
+	"application.hpp"
+	"button.h"
+	<iostream>
+	<fstream>
+
+1554668051 d:\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554668051 d:\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554669815 source:d:\graphicskit_widget_orai\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1554722533 source:d:\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1554669451 source:d:\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1554723315 source:d:\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1554671036 d:\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554723324 source:d:\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1554723315 d:\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554672858 source:c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554672858 c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+
+1554669452 c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1554668052 c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1554725263 source:c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1554725167 c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554669846 source:c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1554668052 c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554668052 source:c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1554668052 c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554726880 source:c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"examplecheckbox.hpp"
+	<vector>
+	"staticText.hpp"
+	"dinamicText.hpp"
+	"opefileText.hpp"
+	"application.hpp"
+	"button.h"
+	<iostream>
+	<fstream>
+	"scroll.hpp"
+
+1554668052 c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554668052 c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1554669816 source:c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1554722534 source:c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1554669452 source:c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1554729212 source:c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+
+1554730251 c:\users\morak\downloads\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555452550 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1555426749 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1555425554 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1555263721 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1555427146 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427166 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427185 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555489716 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"examplecheckbox.hpp"
+	<vector>
+	"staticText.hpp"
+	"dinamicText.hpp"
+	"opefileText.hpp"
+	"application.hpp"
+	"button.h"
+	<iostream>
+	<fstream>
+	"scroll.hpp"
+	"counter.h"
+	"choose.h"
+
+1555270746 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427091 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555425583 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555427246 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1555427091 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+	<iostream>
+
+1555270746 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1555270484 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1555494609 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.cpp
+	"counter.h"
+	"graphics.hpp"
+	<sstream>
+	<iostream>
+
+1555493121 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555489672 source:d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.cpp
+	"choose.h"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+
+1555443783 d:\widget_bead\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555452550 source:d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1555500686 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1555425554 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1555263721 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1555427146 source:d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555500778 source:d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.cpp
+	"choose.h"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+
+1555443783 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555501102 source:d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.cpp
+	"counter.h"
+	"graphics.hpp"
+	<sstream>
+	<iostream>
+
+1555493121 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427166 source:d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427185 source:d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555500686 source:d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+	"application.hpp"
+	<iostream>
+	<fstream>
+	"counter.h"
+	"choose.h"
+
+1555270746 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427091 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555425583 d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555427091 source:d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+	<iostream>
+
+1555270746 source:d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1555270484 source:d:\widget_bead másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1555427146 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555263721 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1555425554 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1555427166 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427185 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427246 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1555427091 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427091 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+	<iostream>
+
+1555425583 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555270746 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1555270746 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555270484 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1555500686 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1555573118 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.cpp
+	"choose.h"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+
+1555443783 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555501102 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.cpp
+	"counter.h"
+	"graphics.hpp"
+	<sstream>
+	<iostream>
+
+1555493121 d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555573515 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+	"application.hpp"
+	<iostream>
+	<fstream>
+	"counter.h"
+	"choose.h"
+
+1555531332 source:d:\widget_bead 3_0\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1556273019 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1556270814 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1556271699 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1555263721 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1556272659 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1556272674 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555573118 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.cpp
+	"choose.h"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+
+1555443783 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555501102 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.cpp
+	"counter.h"
+	"graphics.hpp"
+	<sstream>
+	<iostream>
+
+1555493121 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427166 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427185 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556272254 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+	"application.hpp"
+	<iostream>
+	<fstream>
+	"counter.h"
+	"choose.h"
+	"button.h"
+
+1555427246 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1555427091 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427091 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+	<iostream>
+
+1555425583 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555270746 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1555270746 d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556271831 source:d:\widget_bead 3_0 másolata\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1556468751 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1556270814 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1556468343 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1555263721 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1556273072 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1556272674 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556443888 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.cpp
+	"choose.h"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+
+1555443783 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555501102 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.cpp
+	"counter.h"
+	"graphics.hpp"
+	<sstream>
+	<iostream>
+
+1555493121 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427166 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427185 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427246 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1555427091 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556467615 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+	<iostream>
+
+1556467615 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1556471580 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1556468404 d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556468343 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1556536467 source:d:\widget_bead 3_2\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+	"application.hpp"
+	<iostream>
+	<fstream>
+	"counter.h"
+	"choose.h"
+	"button.h"
+	"scroll.hpp"
+	"staticText.hpp"
+
+1556658325 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1556270814 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1556733331 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1555263721 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1556273072 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1556272674 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556659509 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.cpp
+	"choose.h"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+
+1556551209 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555501102 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.cpp
+	"counter.h"
+	"graphics.hpp"
+	<sstream>
+	<iostream>
+
+1555493121 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427185 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556733399 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+	"application.hpp"
+	<iostream>
+	<fstream>
+	"counter.h"
+	"choose.h"
+	"button.h"
+	"scroll.hpp"
+	"staticText.hpp"
+	"dinamicText.hpp"
+
+1556467615 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1556468404 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427246 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1555427091 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556467615 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+	<iostream>
+
+1556471580 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1556733339 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1556659433 source:d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1556733490 d:\widget_04_29\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556658325 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1556270814 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1556733331 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1555263721 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1556273072 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1556272674 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556659509 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.cpp
+	"choose.h"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+
+1556551209 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555501102 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.cpp
+	"counter.h"
+	"graphics.hpp"
+	<sstream>
+	<iostream>
+
+1555493121 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556659433 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1556733490 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427185 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1557149173 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+	<sstream>
+	"application.hpp"
+	<iostream>
+	<fstream>
+	"counter.h"
+	"choose.h"
+	"button.h"
+	"scroll.hpp"
+	"staticText.hpp"
+	"dinamicText.hpp"
+
+1556467615 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1557148230 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427246 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1555427091 d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556467615 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+	<iostream>
+
+1557148230 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1556733339 source:d:\widget_05_06\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1556658325 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1556270814 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1556733331 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1555263721 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1556273072 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1556272674 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1557754461 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.cpp
+	"choose.h"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+
+1557754208 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555501102 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.cpp
+	"counter.h"
+	"graphics.hpp"
+	<sstream>
+	<iostream>
+
+1555493121 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556659433 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1556733490 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427185 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427246 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1555427091 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556467615 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+	<iostream>
+
+1556467615 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1557148230 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1557148230 d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556733339 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1557755658 source:d:\widget_05_13\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+	<sstream>
+	"application.hpp"
+	<iostream>
+	<fstream>
+	"counter.h"
+	"choose.h"
+	"button.h"
+	"scroll.hpp"
+	"staticText.hpp"
+	"dinamicText.hpp"
+
+1558463857 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1558461518 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1558557921 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1555263721 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1556273072 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1556272674 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1558459883 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.cpp
+	"choose.h"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+
+1558458700 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\choose.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555501102 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.cpp
+	"counter.h"
+	"graphics.hpp"
+	<sstream>
+	<iostream>
+
+1555493121 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1558460178 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1556733490 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427185 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555427091 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1558464026 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+	<sstream>
+	"application.hpp"
+	<iostream>
+	<fstream>
+	"counter.h"
+	"choose.h"
+	"button.h"
+	"scroll.hpp"
+	"staticText.hpp"
+	"dinamicText.hpp"
+
+1556467615 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1558463115 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427246 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1555427091 d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556467615 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+	<iostream>
+
+1558463115 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1558463623 source:d:\widget_05_21\graphicskit_widget_orai (3)\graphicskit_widget_orai\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1567531515 source:d:\malom_jatek_otthon\graphicskit_widget\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+	<iostream>
+
+1567530856 d:\malom_jatek_otthon\graphicskit_widget\application.hpp
+	"widgets.hpp"
+	<vector>
+	<string>
+	<fstream>
+
+1558557921 d:\malom_jatek_otthon\graphicskit_widget\widgets.hpp
+	"graphics.hpp"
+
+1555263721 d:\malom_jatek_otthon\graphicskit_widget\include\graphics.hpp
+	<string>
+
+1556273072 source:d:\malom_jatek_otthon\graphicskit_widget\button.cpp
+	"button.h"
+	"graphics.hpp"
+
+1556272674 d:\malom_jatek_otthon\graphicskit_widget\button.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1558459883 source:d:\malom_jatek_otthon\graphicskit_widget\choose.cpp
+	"choose.h"
+	"graphics.hpp"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+
+1558458700 d:\malom_jatek_otthon\graphicskit_widget\choose.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1555501102 source:d:\malom_jatek_otthon\graphicskit_widget\counter.cpp
+	"counter.h"
+	"graphics.hpp"
+	<sstream>
+	<iostream>
+
+1555493121 d:\malom_jatek_otthon\graphicskit_widget\counter.h
+	"graphics.hpp"
+	"widgets.hpp"
+
+1558460178 source:d:\malom_jatek_otthon\graphicskit_widget\dinamictext.cpp
+	"dinamicText.hpp"
+	"graphics.hpp"
+
+1556733490 d:\malom_jatek_otthon\graphicskit_widget\dinamictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427185 source:d:\malom_jatek_otthon\graphicskit_widget\examplecheckbox.cpp
+	"examplecheckbox.hpp"
+	"graphics.hpp"
+
+1555427091 d:\malom_jatek_otthon\graphicskit_widget\examplecheckbox.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1555427246 source:d:\malom_jatek_otthon\graphicskit_widget\opefiletext.cpp
+	"opefileText.hpp"
+	"graphics.hpp"
+	<fstream>
+
+1555427091 d:\malom_jatek_otthon\graphicskit_widget\opefiletext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1556467615 source:d:\malom_jatek_otthon\graphicskit_widget\scroll.cpp
+	"scroll.hpp"
+	"graphics.hpp"
+	<fstream>
+	<vector>
+	<iostream>
+
+1556467615 d:\malom_jatek_otthon\graphicskit_widget\scroll.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1558463115 source:d:\malom_jatek_otthon\graphicskit_widget\statictext.cpp
+	"staticText.hpp"
+	"graphics.hpp"
+
+1558463115 d:\malom_jatek_otthon\graphicskit_widget\statictext.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1558463623 source:d:\malom_jatek_otthon\graphicskit_widget\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+	"application.hpp"
+
+1567532323 source:d:\malom_jatek_otthon\graphicskit_widget\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+	<sstream>
+	"application.hpp"
+	<iostream>
+	<fstream>
+	"counter.h"
+	"choose.h"
+	"button.h"
+	"scroll.hpp"
+	"staticText.hpp"
+	"dinamicText.hpp"
+	"table.h"
+
+1567532700 d:\malom_jatek_otthon\graphicskit_widget\table.h
+	"graphics.hpp"
+	"widgets.hpp"
+	<vector>
+
+1567532401 source:d:\malom_jatek_otthon\graphicskit_widget\table.cpp
+	"table.h"
+	"graphics.hpp"
+	<math.h>
+	<iostream>
+

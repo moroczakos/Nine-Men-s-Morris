@@ -1,0 +1,12 @@
+void scroll::text()
+{
+    std::ifstream f(_szoveg);
+    std::string temp;
+    while(f.good())
+    {
+        std::getline(f,temp);
+        _textout.push_back(temp);
+    }
+
+    f.close();
+}
