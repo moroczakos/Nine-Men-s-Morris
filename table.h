@@ -18,7 +18,7 @@ protected:
     bool _player;
     std::string _text, _firstPlayer, _secondPlayer;
 public:
-    table(Application * parent,int x, int y, int sx, int sy, std::string firstPlyer, std::string secondPlayer);
+    table(Application * parent,int x, int y, int sx, int sy);
     virtual void draw();
     virtual void handle(genv::event ev);
     virtual bool changedValue();

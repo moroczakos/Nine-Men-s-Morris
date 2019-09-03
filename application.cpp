@@ -21,7 +21,7 @@ void Application::event_loop(int XX, int YY) {
     int focus = 0;
     Widget* catched=0;
     bool rightclick=false;
-    while(gin >> ev && ev.keycode!=key_escape && action() != 0) {
+    while(gin >> ev && ev.keycode!=key_escape) {
         gout<<move_to(0,0)<<color(0,0,0)<<box(XX,YY);
 
         //if(ev.keycode == key_enter || ev.button==btn_left){

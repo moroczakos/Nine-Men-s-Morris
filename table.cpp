@@ -5,15 +5,13 @@
 
 using namespace genv;
 
-table::table(Application * parent,int x, int y, int sx, int sy, std::string firstPlyer, std::string secondPlayer)
+table::table(Application * parent,int x, int y, int sx, int sy)
     : Widget(parent,x,y,sx,sy)
 {
     _focusedElementX = -1;
     _focusedElementY = -1;
     _first18Step = 0;
     _player = false;    //elso jatekos (zold) false, masodik jatekos (piroszü) true
-    _firstPlayer = firstPlyer;
-    _secondPlayer = secondPlayer;
     _text = _firstPlayer;
     _text += " (green) starts";
 }
@@ -50,7 +48,6 @@ void circle(int x_pos, int y_pos, int colour)
         }
     }
 }
-
 
 void table::draw()
 {
@@ -360,6 +357,8 @@ void table::addName(std::string firstPlayer, std::string secondPlayer)
 {
     _firstPlayer = firstPlayer;
     _secondPlayer = secondPlayer;
+    _text = _firstPlayer;
+    _text += " (green) starts";
 }
 
 
