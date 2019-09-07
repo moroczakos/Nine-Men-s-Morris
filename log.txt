@@ -1,0 +1,3 @@
+Valtozott ertek:    Start
+Valtozott ertek:  New Game
+Valtozott ertek:    Exit

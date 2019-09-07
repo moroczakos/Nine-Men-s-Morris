@@ -18,7 +18,7 @@ public:
     void registerWidget(Widget *w){
         widgets.push_back(w);
     }
-    virtual int action(){};
+    virtual void action(){};
 };
 
 #endif // APPLICATION_HPP_INCLUDED

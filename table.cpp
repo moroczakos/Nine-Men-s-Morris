@@ -5,17 +5,16 @@
 
 using namespace genv;
 
-table::table(Application * parent,int x, int y, int sx, int sy, std::string firstPlyer, std::string secondPlayer)
+table::table(Application * parent,int x, int y, int sx, int sy)
     : Widget(parent,x,y,sx,sy)
 {
     _focusedElementX = -1;
     _focusedElementY = -1;
     _first18Step = 0;
-    _player = false;    //elso jatekos (zold) false, masodik jatekos (piroszü) true
-    _firstPlayer = firstPlyer;
-    _secondPlayer = secondPlayer;
+    _player = false;    //elso jatekos (zold) false, masodik jatekos (piros) true
     _text = _firstPlayer;
     _text += " (green) starts";
+    _endGame = false;   //jatek vegen ne lehessen babut mozgatni
 }
 
 //kor rajzolas 1, ha piros, 10, ha piros es kijelolt, 2, ha zold, 20, ha zold es kijelolt kulonben nem rajzol kort
@@ -50,7 +49,6 @@ void circle(int x_pos, int y_pos, int colour)
         }
     }
 }
-
 
 void table::draw()
 {
@@ -102,6 +100,24 @@ bool neighbourhood(int newX, int newY, int focusedElementX, int focusedElementY)
     return false;
 }
 
+//szin szerint a tablan levo babuk szamat megmondja
+void figureNumber(std::vector<std::vector<int> > _matrix, int &sumRed, int &sumGreen)
+{
+    sumRed = 0, sumGreen = 0;
+    for (int i=0;i<7;i++)
+    {
+        for (int j=0;j<7;j++)
+        {
+            if (_matrix[j][i] == 1 || _matrix[j][i] == 10){
+                sumRed++;
+            }
+            else if(_matrix[j][i] == 2 || _matrix[j][i] == 20){
+                sumGreen++;
+            }
+        }
+    }
+}
+
 void figureMove(std::vector<std::vector<int> > &_matrix, int i, int j, int &focusedElementX, int &focusedElementY, bool &player)
 {
     //fokusz beallitasa
@@ -115,14 +131,32 @@ void figureMove(std::vector<std::vector<int> > &_matrix, int i, int j, int &focu
         focusedElementY=i;
     }
 
+    //3 babu eseten lehessen ugralni
+    int sumRed, sumGreen;
+    bool jump = false;
+
+    figureNumber(_matrix, sumRed, sumGreen);
+
+    if (player && sumRed < 4){
+        jump = true;
+    }
+    else if (!player && sumGreen < 4){
+        jump = true;
+    }
+    else{
+        jump = false;
+    }
+
     //kijelolt elemet az uj helyre teszi at kattintasra, ha szomszedos (erteket cserel a ket pozicio)
-    if (_matrix[j][i] == 0 && focusedElementX >= 0 && _matrix[focusedElementX][focusedElementY]/10 > 0 && neighbourhood(j, i, focusedElementX, focusedElementY)){
-        _matrix[j][i] = _matrix[focusedElementX][focusedElementY];
-        _matrix[focusedElementX][focusedElementY] = 0;
-        _matrix[j][i]/=10;  //kijeloles megszuntetese
-        focusedElementX = j;
-        focusedElementY = i;
-        player = !player;
+    if (_matrix[j][i] == 0 && focusedElementX >= 0 && _matrix[focusedElementX][focusedElementY]/10 > 0){
+        if(neighbourhood(j, i, focusedElementX, focusedElementY) || jump){
+            _matrix[j][i] = _matrix[focusedElementX][focusedElementY];
+            _matrix[focusedElementX][focusedElementY] = 0;
+            _matrix[j][i]/=10;  //kijeloles megszuntetese
+            focusedElementX = j;
+            focusedElementY = i;
+            player = !player;
+        }
     }
 }
 
@@ -222,24 +256,14 @@ void showTable(std::vector<std::vector<int> > _matrix, int focusedElementX, int 
 int endGame(std::vector<std::vector<int> > _matrix)
 {
     int sumRed = 0, sumGreen = 0;
-    for (int i=0;i<7;i++)
-    {
-        for (int j=0;j<7;j++)
-        {
-            if (_matrix[j][i] == 1 || _matrix[j][i] == 10){
-                sumRed++;
-            }
-            else if(_matrix[j][i] == 2 || _matrix[j][i] == 20){
-                sumGreen++;
-            }
-        }
-    }
 
-    if (sumRed == 0){
+    figureNumber(_matrix, sumRed, sumGreen);
+
+    if (sumRed < 3){
         std::cout << "Zold nyert";
         return 2;
     }
-    if (sumGreen == 0){
+    if (sumGreen < 3){
         std::cout << "Piros nyert";
         return 1;
     }
@@ -276,14 +300,14 @@ void table::handle(event ev)
         for (int j=0;j<7;j++)
         {
             if (ev.pos_x >= _x+i*(_size_x)/6-20 && ev.pos_x <= _x+i*(_size_x)/6+20 && ev.pos_y >= _y+j*(_size_y)/6-20 && ev.pos_y <= _y+j*(_size_y)/6+20 && ev.button==btn_left &&  _matrix[j][i] >= 0){
-                if (nineMen_s_Morris_Check(_matrix, _focusedElementX, _focusedElementY)){
+                if (nineMen_s_Morris_Check(_matrix, _focusedElementX, _focusedElementY) && !_endGame){
                     //csak az ellenfel babujat lehessen levenni
                     if (removeFigure(_matrix, j, i, _player)){
                         _focusedElementX = -1;
                         _focusedElementY = -1;
                     }
                 }
-                else if (_first18Step > 5){
+                else if (_first18Step > 17 && !_endGame){
                     if (_player && (_matrix[j][i] == 1 || _matrix[j][i] == 10 || _matrix[j][i] == 0)){
                         figureMove(_matrix, i, j, _focusedElementX, _focusedElementY, _player);
                     }
@@ -291,7 +315,7 @@ void table::handle(event ev)
                         figureMove(_matrix, i, j, _focusedElementX, _focusedElementY, _player);
                     }
                 }
-                else if (_first18Step < 6){
+                else if (_first18Step < 18 && !_endGame){
                     addFigure(_matrix, i, j, _player, _first18Step);
                     _focusedElementX = j;
                     _focusedElementY = i;
@@ -303,14 +327,16 @@ void table::handle(event ev)
                     printRemove(_player, _text);
                 }
 
-                if (_first18Step > 5){
+                if (_first18Step > 17){
                     switch (endGame(_matrix))
                     {
                         case 1 :    _text = _secondPlayer;
                                     _text += " (red) won";
+                                    _endGame = true;
                                     break;
                         case 2 :    _text = _firstPlayer;
                                     _text += " (green) won";
+                                    _endGame = true;
                                     break;
                     }
                 }
@@ -354,12 +380,15 @@ void table::newGame()
     _player = false;    //elso jatekos (zold) false, masodik jatekos (piroszü) true
     _text = _firstPlayer;
     _text += " (green) starts";
+    _endGame = false;
 }
 
 void table::addName(std::string firstPlayer, std::string secondPlayer)
 {
     _firstPlayer = firstPlayer;
     _secondPlayer = secondPlayer;
+    _text = _firstPlayer;
+    _text += " (green) starts";
 }
 
 
